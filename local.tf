@@ -6,6 +6,7 @@ locals {
         bronze= {
             category= "General Purpose"
             autotermination_minutes = 20
+            idle                    = false
         }
         silver= {
             category= "General Purpose"
